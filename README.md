@@ -3,14 +3,16 @@
 Turborepo를 사용한 모노레포 구조
 
 ## 구조
+```
 monorepo/
 ├── apps/
 │   └── web/          # React + Vite + Tailwind
 ├── packages/
-│   ├── ui/           # 공통 UI 컴포넌트
+│   ├── ui/           # 공통 UI 컴포넌트 (Shadcn)
 │   ├── config/       # 공통 설정 (ESLint, TypeScript)
 │   └── theme/        # 테마 및 색상
 
+```
 ## 시작하기
 
 ```bash
