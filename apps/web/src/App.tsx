@@ -8,7 +8,7 @@ function App() {
           Monorepo with Vite + React + Tailwind
         </h1>
         <div className="space-x-4">
-          <Button variant="primary" onClick={() => alert("Primary clicked!")}>
+          <Button variant="default" onClick={() => alert("Primary clicked!")}>
             Primary Button
           </Button>
           <Button
