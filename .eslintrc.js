@@ -1,3 +1,3 @@
-import config from "@monorepo/config/eslint";
+import config from "@tt/config/eslint";
 
 export default config;
