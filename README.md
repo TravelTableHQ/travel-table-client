@@ -3,6 +3,7 @@
 Turborepo를 사용한 모노레포 구조
 
 ## 구조
+
 ```
 monorepo/
 ├── apps/
@@ -13,6 +14,7 @@ monorepo/
 │   └── theme/        # 테마 및 색상
 
 ```
+
 ## 시작하기
 
 ```bash
@@ -34,3 +36,4 @@ Package Manager: pnpm
 Frontend: React 19 + Vite + TypeScript
 Styling: Tailwind CSS
 Linting: ESLint + Prettier
+```
