@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/lib/*": ["lib/*"],
+      "@/components/*": ["components/*"]
     },
     "outDir": "dist",
     "rootDir": ".",

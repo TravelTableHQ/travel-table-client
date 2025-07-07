@@ -3,6 +3,8 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "module": "ESNext",
-    "moduleResolution": "bundler"
-  }
+    "moduleResolution": "bundler",
+    "types": ["vite-plugin-pages/client"]
+  },
+  "include": ["src/**/*", "vite-env.d.ts"]
 }
