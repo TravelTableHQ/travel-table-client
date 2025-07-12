@@ -50,12 +50,12 @@ importers:
 
   apps/web:
     dependencies:
-      '@tt/theme':
-        specifier: workspace:*
-        version: link:../../packages/theme
-      '@tt/ui':
+      '@tth/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      lucide-react:
+        specifier: ^0.525.0
+        version: 0.525.0(react@19.1.0)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -69,7 +69,7 @@ importers:
       '@tailwindcss/vite':
         specifier: ^4.1.11
         version: 4.1.11(vite@7.0.0(@types/node@22.15.34)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))
-      '@tt/config':
+      '@tth/config':
         specifier: workspace:*
         version: link:../../packages/config
       '@types/react':
