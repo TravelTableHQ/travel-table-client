@@ -11,14 +11,20 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tanstack/react-query": "^5.83.0",
     "@tth/ui": "workspace:*",
+    "i18next": "^25.3.2",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-i18next": "^15.6.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "@tanstack/react-query-devtools": "^5.83.0",
     "@tth/config": "workspace:*",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
