@@ -11,15 +11,14 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@tt/theme": "workspace:*",
-    "@tt/ui": "workspace:*",
+    "@tth/ui": "workspace:*",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.11",
-    "@tt/config": "workspace:*",
+    "@tth/config": "workspace:*",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "@types/react-router-dom": "^5.3.3",

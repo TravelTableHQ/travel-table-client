@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "tth-client",
   "private": true,
   "scripts": {
     "build": "turbo run build",
