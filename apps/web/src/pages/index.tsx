@@ -1,7 +1,7 @@
 // src/pages/index.tsx
 import { useTranslation } from 'react-i18next';
 import { Button, cn } from '@tth/ui';
-import { availableLocales } from '../lib/i18n';
+import { availableLocales } from '@/lib/i18n';
 
 function HomePage() {
   const { t, i18n: i18nInstance } = useTranslation();

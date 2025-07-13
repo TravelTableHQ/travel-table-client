@@ -4,7 +4,11 @@
     "jsx": "react-jsx",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "types": ["vite-plugin-pages/client"]
+    "types": ["vite-plugin-pages/client"],
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": ["src/**/*", "vite-env.d.ts"]
 }
