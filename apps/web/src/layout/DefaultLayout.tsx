@@ -1,3 +1,4 @@
+import { ROUTES } from '@/constants/ROUTES';
 import { Button, Sheet, SheetContent, SheetTrigger } from '@tth/ui';
 import { Menu } from 'lucide-react';
 import { ReactNode } from 'react';
@@ -24,6 +25,12 @@ function DefaultLayout({ children }: LayoutProps) {
           <a href='#' className='text-sm font-medium text-muted-foreground hover:text-primary'>
             Contact
           </a>
+          <a
+            href={ROUTES.LOGIN}
+            className='text-sm font-medium text-muted-foreground hover:text-primary'
+          >
+            로그인
+          </a>
         </nav>
 
         {/* Mobile Nav */}
@@ -44,6 +51,9 @@ function DefaultLayout({ children }: LayoutProps) {
                 </a>
                 <a href='#' className='text-sm font-medium'>
                   Contact
+                </a>
+                <a href={ROUTES.LOGIN} className='text-sm font-medium'>
+                  로그인
                 </a>
               </div>
             </SheetContent>
