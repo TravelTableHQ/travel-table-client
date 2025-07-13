@@ -11,15 +11,25 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@tt/theme": "workspace:*",
-    "@tt/ui": "workspace:*",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tanstack/react-query": "^5.83.0",
+    "@tth/ui": "workspace:*",
+    "dayjs": "^1.11.13",
+    "i18next": "^25.3.2",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.3"
+    "react-i18next": "^15.6.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.3",
+    "zod": "^3.25.67",
+    "zod-i18n-map": "^2.27.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.11",
-    "@tt/config": "workspace:*",
+    "@tanstack/react-query-devtools": "^5.83.0",
+    "@tth/config": "workspace:*",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "@types/react-router-dom": "^5.3.3",

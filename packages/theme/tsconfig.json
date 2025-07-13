@@ -1,9 +1,0 @@
-{
-  "extends": "@tt/config/tsconfig/base.json",
-  "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "."
-  },
-  "include": ["**/*.ts"],
-  "exclude": ["dist", "node_modules"]
-}

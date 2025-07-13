@@ -21,7 +21,11 @@
     "allowJs": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "@tth/ui": ["../../packages/ui/index.ts"],
+      "@tth/ui/*": ["../../packages/ui/*"]
+    }
   },
   "exclude": ["node_modules"]
 }
